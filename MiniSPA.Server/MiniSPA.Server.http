@@ -1,0 +1,6 @@
+@MiniSPA.Server_HostAddress = http://localhost:5249
+
+GET {{MiniSPA.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

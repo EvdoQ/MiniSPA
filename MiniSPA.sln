@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniSPA.Server", "MiniSPA.Server\MiniSPA.Server.csproj", "{C2A6E5F9-8E7B-410F-82BE-573B9FFE4E3F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "minispa.client", "minispa.client\minispa.client.esproj", "{8E106C08-C0A7-4EB8-B4F4-5E1575111F96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2A6E5F9-8E7B-410F-82BE-573B9FFE4E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A6E5F9-8E7B-410F-82BE-573B9FFE4E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A6E5F9-8E7B-410F-82BE-573B9FFE4E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A6E5F9-8E7B-410F-82BE-573B9FFE4E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E106C08-C0A7-4EB8-B4F4-5E1575111F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E106C08-C0A7-4EB8-B4F4-5E1575111F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E106C08-C0A7-4EB8-B4F4-5E1575111F96}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8E106C08-C0A7-4EB8-B4F4-5E1575111F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E106C08-C0A7-4EB8-B4F4-5E1575111F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E106C08-C0A7-4EB8-B4F4-5E1575111F96}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1AE1F56-818B-42CA-9F66-A02934F4CF30}
+	EndGlobalSection
+EndGlobal
