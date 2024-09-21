@@ -1,4 +1,8 @@
 
+using MiniSPA.Server.Data;
+using MiniSPA.Server.Services;
+using MiniSPA.Server.Services.Interfaces;
+
 namespace MiniSPA.Server
 {
     public class Program
@@ -11,6 +15,9 @@ namespace MiniSPA.Server
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddTransient<ILinkService, LinkService>();
+            builder.Services.AddSingleton<MyDataContext>();
 
             var app = builder.Build();
 
